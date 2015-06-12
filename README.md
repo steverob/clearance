@@ -363,9 +363,9 @@ sign_in_as(user)
 sign_out
 ```
 
-### View Spec Helpers
+### View and Helper Spec Helpers
 
-Does the view your testing reference `signed_in?`, `signed_out?` or
+Does the view or helper you're testing reference `signed_in?`, `signed_out?` or
 `current_user`? If you `require 'clearance/rspec'`, you will have the following
 helpers available in your view specs:
 
