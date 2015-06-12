@@ -366,7 +366,7 @@ sign_out
 ### View Spec Helpers
 
 Does the view your testing reference `signed_in?`, `signed_out?` or
-`current_user`? If you `require clearance/rspec`, you will have the following
+`current_user`? If you `require 'clearance/rspec'`, you will have the following
 helpers available in your view specs:
 
 ```ruby
